@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-turquoise mt-0 py-1">
-      <p className="mt-2 text-center text-white max-w-xl mx-auto text-4xl ">
+    <footer className="bg-blue-100 mt-0 py-1">
+      <p className="mt-2 text-center text-black max-w-xl mx-auto text-4xl ">
         <a
           href="https://www.instagram.com/can3fix/?igsh=MXUycnB3MXB3eDNh"
           target="_blank"

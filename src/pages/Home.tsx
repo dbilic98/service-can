@@ -52,7 +52,7 @@ const Home = () => {
             Više o tome na linku:
             <a
               href="/roboti"
-              className="text-forest-green hover:underline font-semibold ml-2"
+              className="text-turquoise hover:underline font-semibold ml-2"
             >
               Roboti
             </a>
@@ -94,7 +94,6 @@ const Home = () => {
           />
         </div>
       </section>
-
       <Footer />
     </div>
   );
