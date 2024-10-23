@@ -25,7 +25,8 @@ const Navbar = () => {
           <li>
             <Link
               to=""
-              className="text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg hover:scale-150 transition-transform"
+              className="text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg hover:scale-150 transition-transform cursor-not-allowed"
+              onClick={(e) => e.preventDefault()}
             >
               PlayStation
             </Link>
