@@ -63,12 +63,29 @@ const Home = () => {
         </div>
       </section>
       <hr />
+
       <section className="bg-white py-8 px-4 md:px-6">
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-8">
-          <img src={robot1} alt="robotPicture1" className="mx-auto h-80" />
-          <img src={robot2} alt="robotPicture2" className="mx-auto h-80" />
-          <img src={robot3} alt="robotPicture3" className="mx-auto h-80" />
-          <img src={robot4} alt="robotPicture4" className="mx-auto h-80" />
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          <img
+            src={robot1}
+            alt="robotPicture1"
+            className="mx-auto w-72 h-80 object-cover"
+          />
+          <img
+            src={robot2}
+            alt="robotPicture2"
+            className="mx-auto w-72 h-80 object-cover"
+          />
+          <img
+            src={robot3}
+            alt="robotPicture3"
+            className="mx-auto w-72 h-80 object-cover"
+          />
+          <img
+            src={robot4}
+            alt="robotPicture4"
+            className="mx-auto w-72 h-80 object-cover"
+          />
         </div>
       </section>
 
@@ -94,6 +111,7 @@ const Home = () => {
           />
         </div>
       </section>
+
       <Footer />
     </div>
   );

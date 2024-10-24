@@ -77,7 +77,8 @@ const Roboti = () => {
         <h2 className="text-center text-4xl font-bold text-turquoise mt-10 mb-10">
           G A L E R I J A
         </h2>
-        <div className="grid grid-cols-3 gap-4 mx-auto mb-10">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto mb-10">
           <img
             src={gallery1}
             alt="galleryPicture1"
@@ -94,7 +95,8 @@ const Roboti = () => {
             className="mx-auto w-96 h-96"
           />
         </div>
-        <div className="grid grid-cols-4 gap-5 mx-auto mt-20 mb-20">
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mx-auto mt-20 mb-20">
           <img
             src={gallery4}
             alt="galleryPicture4"
@@ -117,6 +119,7 @@ const Roboti = () => {
           />
         </div>
       </section>
+
       <Footer />
     </div>
   );
