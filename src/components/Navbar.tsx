@@ -24,6 +24,7 @@ const Navbar = () => {
           </button>
         </div>
 
+        {/* Mobile Menu */}
         <ul
           className={`${
             isOpen ? "block" : "hidden"
@@ -32,7 +33,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg hover:scale-110 transition-transform py-2"
+              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg transition-transform py-2"
               onClick={handleLinkClick} // Close menu on link click
             >
               Početna
@@ -41,7 +42,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/roboti"
-              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg hover:scale-110 transition-transform py-2"
+              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg transition-transform py-2"
               onClick={handleLinkClick} // Close menu on link click
             >
               Roboti
@@ -59,7 +60,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/kontakt"
-              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg hover:scale-110 transition-transform py-2"
+              className="block text-turquoise font-semibold hover:text-darkTurquoise hover:shadow-lg transition-transform py-2"
               onClick={handleLinkClick} // Close menu on link click
             >
               Kontakt
